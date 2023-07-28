@@ -6,7 +6,7 @@
 body {
   display: flex;
   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgb(98, 92, 202) 0%, rgb(141, 141, 141) 47%, rgb(51, 106, 117) 100%);
   color: white;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
   width: 440px;
   height: 440px;
   padding: 5px;
-  background-color: #57407c;
+  background-color: #adb93d;
   border-radius: 7px;
   outline: none;
   position: relative;
@@ -48,7 +48,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
 }
 
 .resetButton {
-  background-color: #3d2963;
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   font-size: 25px;
@@ -66,7 +66,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
 }
 
 .score-box {
-  background-color: #3d2963;
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.5);
   min-width: 50px;
   width: 70px;
@@ -88,7 +88,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
   border-radius: 7px;
   font-family: "Clear Sans";
   color: #766;
-  background-color: #3d2963;
+  background-color: #3f3e3e;
 }
 
 .tile0 {

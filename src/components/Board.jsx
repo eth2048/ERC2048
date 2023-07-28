@@ -53,7 +53,7 @@ const BoardView = () => {
           New Game
         </div>
         <div className="score-box">
-          <div className="score-header">PUNTOS</div>
+          <div className="score-header">POINTS</div>
           <div>{board.score}</div>
         </div>
       </div>
@@ -61,6 +61,35 @@ const BoardView = () => {
         {cells}
         {tiles}
         <GameOverlay onRestart={resetGame} board={board} />
+        <div>
+      <p>
+      <b>This game (2048) was built for degens.</b> so I hope you can learn your lesson from it.
+        </p>
+        <p>
+          <b>Wondering what is next for the game?</b> You can find a plan here:
+        </p>
+        <ul>
+          <li>
+              Dapp Intergration soon
+          </li>
+          <li>
+            Chat soon
+          </li>
+          <li>
+              Scoreboard soon
+          </li>
+          <li>
+              Reward soon
+          </li>
+          <li>
+              Mooning soon
+          </li>
+        </ul>
+      </div>
+      <div className="footer">
+        Made with ❤️ by{" "}
+          bunch of degens
+      </div>
       </div>
     </div>
   );
